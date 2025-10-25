@@ -1,4 +1,4 @@
-## OT-Transformer (Text Generation Experiments)
+# OT-Transformer (Text Generation Experiments)
 
 This repository contains the text generation implementation of the paper:
 
@@ -8,11 +8,11 @@ This repository contains the text generation implementation of the paper:
 > *Neural Information Processing Systems (NeurIPS), 2025*  
 > [Paper Link](https://arxiv.org/pdf/2505.13499?)
 
-The implementation is directly modified from [NanoGPT](https://github.com/karpathy/nanoGPT)
+This codebase is directly modified from [NanoGPT](https://github.com/karpathy/nanoGPT)
 
-## How to easily turn your standard Transformer into OT-Transformer (pseudocode)
+# How to easily turn a standard Transformer into OT-Transformer
 
-This plug-and-play modification requires minimal changes to a standard Transformer.
+The following plug-and-play modification requires minimal changes to a standard Transformer.
 
 ```
 Require: Input x, standard Transformer model f, 
@@ -33,6 +33,7 @@ def OT_Transformer(x, f, lmbda, T, M):
   return x, lmbda*reg
 ```
 
+![OT-Transformer](assets/OT-Transformer.png)
 
 ## Commands for the experiments
 
