@@ -12,7 +12,7 @@ This repository contains the text generation implementation of the paper:
 
 (This codebase is directly modified from [NanoGPT](https://github.com/karpathy/nanoGPT))
 
-# How to easily turn a standard Transformer into OT-Transformer
+## How to easily turn a standard Transformer into OT-Transformer
 
 The following plug-and-play modification requires minimal changes to a standard Transformer.
 
